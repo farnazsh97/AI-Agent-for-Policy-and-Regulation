@@ -1,0 +1,91 @@
+{
+  "@@locale": "en",
+  "appTitle": "Compliance Audit Dashboard",
+  "eHospital": "COMPLIANCE",
+  "pharmaceuticals": "AUDIT SYSTEM",
+  "eHospitalPharmaceuticals": "COMPLIANCE AUDIT SYSTEM",
+  "complianceSubtitle": "Compliance Audit and Automated Policy Alignment System",
+  "complianceAuditDashboard": "Compliance Audit Dashboard",
+  "automatedPolicyDescription": "Automated policy alignment and incident investigation system.",
+  "databaseConnectedTooltip": "Database Connected",
+  "configureDatabaseTooltip": "Configure Database",
+  "database": "Database",
+  "hospitalPolicy": "Organization Policy",
+  "hospitalPolicySubtitle": "Upload the relevant rulebook or policy document (PDF)",
+  "incidentReport": "Incident Report",
+  "incidentReportSubtitle": "Upload the factual report of the event (PDF)",
+  "dropFileHere": "Drop File Here",
+  "dragDropOrClick": "Drag & Drop or Click to select PDF",
+  "documentReady": "Document Ready",
+  "remove": "Remove",
+  "runComplianceAnalysis": "RUN COMPLIANCE ANALYSIS",
+  "agentPipelineExecuting": "Agent Pipeline Executing",
+  "processingSemanticLayers": "Processing semantic layers, assessing severity, and generating recommendations...",
+  "pleaseConfigureDatabase": "Please configure database connection first.",
+  "pleaseUploadBothFiles": "Please upload BOTH a Policy PDF and an Incident PDF.",
+  "errorWhileAnalyzing": "Error while analyzing: {error}",
+  "@errorWhileAnalyzing": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "auditReport": "Audit Report: {personId}",
+  "@auditReport": {
+    "placeholders": {
+      "personId": { "type": "String" }
+    }
+  },
+  "analysisResults": "Analysis Results",
+  "complianceDetermination": "Final compliance determination based on policy cross-referencing.",
+  "violationDetected": "VIOLATION DETECTED",
+  "complianceConfirmed": "COMPLIANCE CONFIRMED",
+  "notDetermined": "NOT DETERMINED",
+  "badgeViolation": "Violation",
+  "badgeNoViolation": "No Violation",
+  "defaultDecisionText": "The agent has processed the incident and compared it against the provided policy guidelines.",
+  "personnelInformation": "Personnel Information",
+  "personId": "Person ID",
+  "assignedRole": "Assigned Role",
+  "priorHistory": "Prior History",
+  "previousRecords": "{count} previous records",
+  "@previousRecords": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "detailedAssessment": "Detailed Assessment",
+  "severityLevel": "Severity Level",
+  "recommendedSanction": "Recommended Sanction",
+  "actionItems": "Action Items",
+  "complianceRationale": "Compliance Rationale",
+  "policyEvidence": "Policy Evidence",
+  "hideExcerpts": "Hide Excerpts",
+  "viewExcerpts": "View Excerpts",
+  "relevanceScore": "Relevance Score: {score}",
+  "@relevanceScore": {
+    "placeholders": {
+      "score": { "type": "String" }
+    }
+  },
+  "databaseConnection": "Database Connection",
+  "enterDatabaseCredentials": "Enter your database credentials to connect",
+  "hostname": "Hostname",
+  "hostnameHint": "e.g., localhost or 192.168.1.1",
+  "username": "Username",
+  "usernameHint": "e.g., root or admin",
+  "password": "Password",
+  "passwordHint": "Enter your database password",
+  "port": "Port",
+  "databaseName": "Database",
+  "hostnameRequired": "Hostname is required",
+  "usernameRequired": "Username is required",
+  "passwordRequired": "Password is required",
+  "portRequired": "Port is required",
+  "invalidPort": "Invalid port",
+  "databaseNameRequired": "Database name is required",
+  "databaseConnectedSuccess": "Database connected successfully!",
+  "databaseConnectionFailed": "Failed to connect to database. Please check credentials.",
+  "cancel": "Cancel",
+  "connect": "Connect",
+  "language": "Language"
+}

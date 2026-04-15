@@ -1,0 +1,5 @@
+.env
+.env
+build/
+E-hospital-frontend/build/
+.dart_tool/
