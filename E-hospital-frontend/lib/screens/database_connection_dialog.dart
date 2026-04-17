@@ -360,6 +360,9 @@ class _DatabaseConnectionDialogState extends State<DatabaseConnectionDialog> {
                       child: Text(loc.cancel),
                     ),
                     const SizedBox(width: 12),
+                      style: FilledButton.styleFrom(
+                      foregroundColor: Colors.white, // text + icon color
+                    ),
                     FilledButton.tonal(
                       onPressed: _isConnecting ? null : _connect,
                       child: _isConnecting
